@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Cera-pro-reg";
+    src: url(../fonts/CeraPro-Regular.ttf);
+}
+@font-face {
+    font-family: "Cera-pro-med";
+    src: url(../fonts/CeraPro-Medium.ttf);
+}
+@font-face {
+    font-family: "Cera-pro-bolt";
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+
+
 .bod {
 
 
@@ -28,7 +43,7 @@ height: 16px;
 left: 172px;
 top: 52px;
 
-font-family: 'Cera Pro';
+font-family: 'Cera-pro-reg';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -45,7 +60,7 @@ height: 16px;
 left: 251px;
 top: 52px;
 
-font-family: 'Cera Pro';
+font-family: 'Cera-pro-reg';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -63,7 +78,7 @@ height: 16px;
 left: 236px;
 top: 52px;
 
-font-family: 'Cera Pro';
+font-family: 'Cera-pro-reg';
 font-style: normal;
 font-weight: 250;
 font-size: 18px;
@@ -82,7 +97,7 @@ height: 16px;
 left: 100px;
 top: 108px;
 
-font-family: 'Cera Pro';
+font-family: 'Cera-pro-reg';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -206,7 +221,7 @@ border-radius: 5px;
 
 
 
-font-family: 'Cera Pro';
+font-family: 'Cera-pro-reg';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
