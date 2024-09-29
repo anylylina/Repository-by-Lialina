@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "cera-pro-reg";
+  src: url(../fonts/CeraPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "cera-pro-med";
+  src: url(../fonts/CeraPro-Medium.ttf);
+}
+
+@font-face {
+  font-family: "cera-pro-bold";
+  src: url(../fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: "cera-pro-black";
+  src: url(../fonts/CeraPro-Black.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "cera-pro-reg";
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "cera-pro-reg";
+  color: #3d3d3d;
+  
+}
+
+button {
+  font-family: "cera-pro-med", sans-serif;
+  background-color: #46a358;
+  color: #ffffff;
+  padding: 7px 17px;
+  border-radius: 6px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    border: 1px solid red;
+    
+}
+
+header .logo {
+ 
+  width: 150px;
+  height: 34.3px;
+  vertical-align: middle;
+}
+
+header .navigation {
+ display: inline-block;
+ vertical-align: middle;
+ width: 350px;
+ margin: 0 auto;
+ 
+}
+
+.active-link {
+  text-decoration: none;
+  font-family: "cera-pro-bold";
+}
+
+ header .btn-login {
+ 
+}
+
+.btn-login .login-icon {
+  padding-right: 3px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.btn-login .login-text {
+  vertical-align: middle;
+  padding-top: 2px;
+}
+
+.all {
+  width: 50%;
+  display: inline-block;
+}
+
+
+
+.span1 {
+  font-family: "cera-pro-med";
+  font-size: 14px;
+  color: #3d3d3d;
+  display: inline;
+  /* padding-left: 43px;
+  padding-top: 68px;
+  padding-right: 445px;
+  padding-bottom: 7px; */
+}
+
+h1 {
+  font-family: "cera-pro-black";
+  font-size: 70px;
+  color: #3d3d3d;
+  /* padding-left: 40px;
+  padding-top: 7px;
+  padding-right: 123px;
+  padding-bottom: 5px;
+  margin: auto; */
+}
+
+h1 span {
+  font-family: "cera-pro-black";
+  font-size: 70px;
+  color: #46a358;
+}
+
+p {
+  font-family: "cera-pro-reg";
+  font-size: 14px;
+  color: #727272;
+  /* padding-left: 43px;
+  padding-top: 5px;
+  padding-right: 93px;
+  padding-bottom: 44px;
+  margin: auto; */
+}
+
+.btn-shop {
+  font-family: "cera-pro-bold";
+  width: 140px;
+  height: 40px;
+}
+
+.btn2 {
+  /* padding-left: 41px;
+  padding-top: 44px;
+  padding-right: 512px;
+  padding-bottom: 85px; */
+}
+
+/* .plants img {
+    display: inline;
+    padding-left: 90px;
+    padding-top: 95px;
+    padding-right: 120px;
+    padding-bottom: 85px; 
+ } */
