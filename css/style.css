@@ -33,7 +33,6 @@ a {
   text-decoration: none;
   font-family: "cera-pro-reg";
   color: #3d3d3d;
-  
 }
 
 button {
@@ -45,40 +44,39 @@ button {
 }
 
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
-    border: 1px solid red;
-    
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 header .logo {
- 
   width: 150px;
   height: 34.3px;
   vertical-align: middle;
 }
 
 header .navigation {
- display: inline-block;
- vertical-align: middle;
- width: 350px;
- margin: 0 auto;
- 
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 230px;
+  margin-right: 350px;
 }
 
-.active-link {
-  text-decoration: none;
+header .navigation a + a {
+  padding-left: 50px;
+}
+
+header .navigation .active-link {
   font-family: "cera-pro-bold";
+  border-bottom: 3px solid #46a358;
+  padding-bottom: 2px;
 }
 
- header .btn-login {
- 
-}
-
-.btn-login .login-icon {
+header .btn-login .login-icon {
   padding-right: 3px;
   vertical-align: middle;
   width: 20px;
@@ -86,74 +84,60 @@ header .navigation {
   vertical-align: middle;
 }
 
-.btn-login .login-text {
+header .btn-login .login-text {
   vertical-align: middle;
   padding-top: 2px;
 }
 
-.all {
-  width: 50%;
-  display: inline-block;
+.hero-section {
+  background-color: #f5f5f5;
+  padding: 68px 43px;
 }
 
+.description {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
 
-
-.span1 {
+.description .small-title {
   font-family: "cera-pro-med";
   font-size: 14px;
   color: #3d3d3d;
-  display: inline;
-  /* padding-left: 43px;
   padding-top: 68px;
-  padding-right: 445px;
-  padding-bottom: 7px; */
+  padding-left: 43px;
 }
 
-h1 {
+.description .title {
   font-family: "cera-pro-black";
   font-size: 70px;
-  color: #3d3d3d;
-  /* padding-left: 40px;
+  padding-left: 40px;
   padding-top: 7px;
-  padding-right: 123px;
-  padding-bottom: 5px;
-  margin: auto; */
 }
 
-h1 span {
-  font-family: "cera-pro-black";
-  font-size: 70px;
+.description .mark {
   color: #46a358;
 }
 
-p {
+.description .text {
   font-family: "cera-pro-reg";
   font-size: 14px;
   color: #727272;
-  /* padding-left: 43px;
+  padding-left: 43px;
   padding-top: 5px;
-  padding-right: 93px;
-  padding-bottom: 44px;
-  margin: auto; */
 }
 
-.btn-shop {
+.description .btn-shop {
   font-family: "cera-pro-bold";
-  width: 140px;
-  height: 40px;
+  font-size: 16px;
+  margin-left: 41px;
+  margin-top: 44px;
+  margin-bottom: 85px;
 }
 
-.btn2 {
-  /* padding-left: 41px;
-  padding-top: 44px;
-  padding-right: 512px;
-  padding-bottom: 85px; */
+.plants {
+  width: 507px;
+  height: 450px;
+  padding-left: 93px;
+  padding-top: 12px;
 }
-
-/* .plants img {
-    display: inline;
-    padding-left: 90px;
-    padding-top: 95px;
-    padding-right: 120px;
-    padding-bottom: 85px; 
- } */
