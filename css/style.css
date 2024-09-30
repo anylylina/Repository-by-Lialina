@@ -98,7 +98,7 @@ header .btn-login .login-text {
   display: inline-block;
   width: 50%;
   vertical-align: top;
-  padding-left: 43px;
+  padding-left: 41px;
 }
 
 .description .small-title {
@@ -110,8 +110,7 @@ header .btn-login .login-text {
 
 .description .title {
   font-family: "cera-pro-black";
-  font-size: 65px;
-
+  font-size: 67px;
   padding-top: 7px;
 }
 
