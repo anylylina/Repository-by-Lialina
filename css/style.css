@@ -98,6 +98,7 @@ header .btn-login .login-text {
   display: inline-block;
   width: 50%;
   vertical-align: top;
+  padding-left: 43px;
 }
 
 .description .small-title {
@@ -105,13 +106,12 @@ header .btn-login .login-text {
   font-size: 14px;
   color: #3d3d3d;
   padding-top: 68px;
-  padding-left: 43px;
 }
 
 .description .title {
   font-family: "cera-pro-black";
-  font-size: 65px; 
-  padding-left: 40px;
+  font-size: 65px;
+
   padding-top: 7px;
 }
 
@@ -123,14 +123,13 @@ header .btn-login .login-text {
   font-family: "cera-pro-reg";
   font-size: 14px;
   color: #727272;
-  padding-left: 43px;
   padding-top: 5px;
 }
 
 .description .btn-shop {
   font-family: "cera-pro-bold";
   font-size: 16px;
-  margin-left: 41px;
+  margin-left: 1px;
   margin-top: 44px;
   margin-bottom: 85px;
 }
