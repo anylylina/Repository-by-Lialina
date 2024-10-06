@@ -57,6 +57,8 @@ input[type="email"] {
   padding: 12px 14px;
   margin-bottom: 16px;
   border: 1px solid #eaeaea;
+  font-family: "cera-pro-reg";
+  font-size: 14px;
 }
 
 input[type="submit"],
